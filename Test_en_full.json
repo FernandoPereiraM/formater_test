@@ -1,0 +1,502 @@
+[
+  {
+    "id": "DATA_INQUIRY___________45adf04f3ffbb8c7458c7ef6019",
+    "type": "Dialogue",
+    "text": "The user indicates: Form of the National Superintendence of Health - Coverage.",
+    "actor": "Des. User",
+    "isExpanded": null,
+    "team": "None",
+    "tool": "None",
+    "interactions": [
+      {
+        "id": "INSTRUCTION9b4bd88b6916c337a04e14c2862b9a",
+        "type": "Dialogue",
+        "text": "According to your knowledge, compare with the known cases the case mentioned by the user and determines whether there is similarity. If there is, respond only with the word ** Applies **. If you find no similarity with any of the cases, respond only with the word ** Verify **.",
+        "actor": "Instruction",
+        "isExpanded": null,
+        "team": "Experts",
+        "tool": "None",
+        "interactions": [
+          {
+            "id": "INSTRUCTIONb218d13d9ca9ef51e67bdc4e8c54f6",
+            "type": "Dialogue",
+            "text": "The text contains the word applies.",
+            "actor": "Instruction",
+            "isExpanded": null,
+            "team": "None",
+            "tool": "None",
+            "interactions": [
+              {
+                "id": "INSTRUCTION1e05ba2c8499087d81c55a934fcc4a",
+                "type": "Dialogue",
+                "text": "Ask to the user, do you use a lawyer?",
+                "actor": "Instruction",
+                "isExpanded": null,
+                "team": "None",
+                "tool": "None",
+                "interactions": [
+                  {
+                    "id": "USER_RESPONSEaaae9a7c409fe975b2f257b89804d8",
+                    "type": "Dialogue",
+                    "text": "The user answers: Yes.",
+                    "actor": "Des. User",
+                    "isExpanded": null,
+                    "team": "None",
+                    "tool": "None",
+                    "interactions": [
+                      {
+                        "id": "INSTRUCTION7e8d91708896223d8438d5b117814b",
+                        "type": "Dialogue",
+                        "text": "Ask the user what ** \"user type is the attorney\" ** of the options: - natural - legal",
+                        "actor": "Instruction",
+                        "isExpanded": true,
+                        "team": "None",
+                        "tool": "None",
+                        "interactions": [
+                          {
+                            "id": "USER_RESPONSE50657556708cf90bf42e6e2467a6a4",
+                            "type": "Dialogue",
+                            "text": "The user responds: natural.",
+                            "actor": "Des. User",
+                            "isExpanded": null,
+                            "team": "None",
+                            "tool": "None",
+                            "interactions": [
+                              {
+                                "id": "INSTRUCTION3d4398bd39973712e2e5e774084746",
+                                "type": "Dialogue",
+                                "text": "Ask the user to enter the following data from the attorney: \n- Document type (mandatory)\n- Identification (mandatory)\n- First name (mandatory)\n- Second name\n- First surname (mandatory)\n- Second last name",
+                                "actor": "Instruction",
+                                "isExpanded": null,
+                                "team": "None",
+                                "tool": "None",
+                                "interactions": [
+                                  {
+                                    "id": "USER_RESPONSE0629bd80e6ab06e9b6f206f9772b38",
+                                    "type": "Dialogue",
+                                    "text": "The user responds.",
+                                    "actor": "Des. User",
+                                    "isExpanded": null,
+                                    "team": "None",
+                                    "tool": "None",
+                                    "interactions": [
+                                      {
+                                        "id": "INSTRUCTION04620e78210c984d696d98870cc3c6",
+                                        "type": "Dialogue",
+                                        "text": "Ask the user to enter the following domicile data from the attorney: \n- Country (mandatory)\n- Directorate Judicial Notification (Mandatory)",
+                                        "actor": "Instruction",
+                                        "isExpanded": null,
+                                        "team": "None",
+                                        "tool": "None",
+                                        "interactions": [
+                                          {
+                                            "id": "USER_RESPONSE06d1e537f0662571abfaa36b8e2659",
+                                            "type": "Dialogue",
+                                            "text": "The user responds.",
+                                            "actor": "Des. User",
+                                            "isExpanded": null,
+                                            "team": "None",
+                                            "tool": "None",
+                                            "interactions": [
+                                              {
+                                                "id": "INSTRUCTIONbf0e971fe00a57d02d9a04c457510f",
+                                                "type": "Dialogue",
+                                                "text": "Ask the user to enter the following contact information from the attorney: \n- Cell phone (mandatory)\n- Floor or cell phone\n- Email (mandatory)",
+                                                "actor": "Instruction",
+                                                "isExpanded": null,
+                                                "team": "None",
+                                                "tool": "None",
+                                                "interactions": [
+                                                  {
+                                                    "id": "USER_RESPONSE1f4877bae099818c593d9601c930fa",
+                                                    "type": "Dialogue",
+                                                    "text": "The user responds.",
+                                                    "actor": "Des. User",
+                                                    "isExpanded": null,
+                                                    "team": "None",
+                                                    "tool": "None",
+                                                    "interactions": [
+                                                      {
+                                                        "id": "INSTRUCTIONfdb88d63074c79f3c14b69d87ccb60",
+                                                        "type": "Dialogue",
+                                                        "text": "Ask the user what ** \"User type is the plaintiff\" ** of the options: - Natural - legal",
+                                                        "actor": "Instruction",
+                                                        "isExpanded": null,
+                                                        "team": "Experts",
+                                                        "tool": "None",
+                                                        "interactions": [
+                                                          {
+                                                            "id": "USER_RESPONSEa78447444713fdc2d0a5fb40c2913e",
+                                                            "type": "Dialogue",
+                                                            "text": "The user responds: natural.",
+                                                            "actor": "Des. User",
+                                                            "isExpanded": null,
+                                                            "team": "None",
+                                                            "tool": "None",
+                                                            "interactions": [
+                                                              {
+                                                                "id": "INSTRUCTION2b842e3033ef97745bc63e90d52cf7",
+                                                                "type": "Dialogue",
+                                                                "text": "Ask the user to enter the applicant's following data: - Type of document (mandatory) - Identification (mandatory) - First name (mandatory) - Second name - First Surname (Mandatory) - Second Surname",
+                                                                "actor": "Instruction",
+                                                                "isExpanded": null,
+                                                                "team": "Experts",
+                                                                "tool": "None",
+                                                                "interactions": [
+                                                                  {
+                                                                    "id": "USER_RESPONSEfad1bcacc0b41d5ce15d350419535b",
+                                                                    "type": "Dialogue",
+                                                                    "text": "The user responds.",
+                                                                    "actor": "Des. User",
+                                                                    "isExpanded": null,
+                                                                    "team": "None",
+                                                                    "tool": "None",
+                                                                    "interactions": [
+                                                                      {
+                                                                        "id": "INSTRUCTION198006c25d2064294aa7a5d888e591",
+                                                                        "type": "Dialogue",
+                                                                        "text": "Ask the user to enter the applicant's following domicile data:\n- Country (mandatory)\n- Department / State / Province (mandatory)\n- Municipality / city (mandatory)\n- Directorate Judicial Notification (Mandatory)",
+                                                                        "actor": "Instruction",
+                                                                        "isExpanded": null,
+                                                                        "team": "Experts",
+                                                                        "tool": "None",
+                                                                        "interactions": [
+                                                                          {
+                                                                            "id": "USER_RESPONSEcbe60d395ff848d893620a12047f73",
+                                                                            "type": "Dialogue",
+                                                                            "text": "The user responds.",
+                                                                            "actor": "Des. User",
+                                                                            "isExpanded": null,
+                                                                            "team": "None",
+                                                                            "tool": "None",
+                                                                            "interactions": [
+                                                                              {
+                                                                                "id": "INSTRUCTION5a4e09618a1e3b29137bda3d624666",
+                                                                                "type": "Dialogue",
+                                                                                "text": "Ask the user to enter the plaintiff's following contact information: - Cell phone (mandatory) - Fixed or cell phone - email (mandatory)",
+                                                                                "actor": "Instruction",
+                                                                                "isExpanded": null,
+                                                                                "team": "Experts",
+                                                                                "tool": "None",
+                                                                                "interactions": [
+                                                                                  {
+                                                                                    "id": "USER_RESPONSE71cd0e6aa85d9264ae0cacd5b521ad",
+                                                                                    "type": "Dialogue",
+                                                                                    "text": "The user responds.",
+                                                                                    "actor": "Des. User",
+                                                                                    "isExpanded": null,
+                                                                                    "team": "None",
+                                                                                    "tool": "None",
+                                                                                    "interactions": [
+                                                                                      {
+                                                                                        "id": "INSTRUCTION31e56035623a4765e407f492707c81",
+                                                                                        "type": "Dialogue",
+                                                                                        "text": "Ask the user to briefly describe the details of the demand.",
+                                                                                        "actor": "Instruction",
+                                                                                        "isExpanded": null,
+                                                                                        "team": "None",
+                                                                                        "tool": "None",
+                                                                                        "interactions": [
+                                                                                          {
+                                                                                            "id": "USER_RESPONSE44cab337b7d7b6a6845d1451e8ad77",
+                                                                                            "type": "Dialogue",
+                                                                                            "text": "The user responds.",
+                                                                                            "actor": "Des. User",
+                                                                                            "isExpanded": null,
+                                                                                            "team": "None",
+                                                                                            "tool": "None",
+                                                                                            "interactions": [
+                                                                                              {
+                                                                                                "id": "INSTRUCTION05a3c9f3ec53aba161ea276571a7b0",
+                                                                                                "type": "Dialogue",
+                                                                                                "text": "The conversation ends in a friendly and informs the user who can download a draft of the demand using the button located in the lower right, or access the form through the continuous button.",
+                                                                                                "actor": "Instruction",
+                                                                                                "isExpanded": null,
+                                                                                                "team": "Experts",
+                                                                                                "tool": "None",
+                                                                                                "interactions": []
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    ]
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "id": "USER_RESPONSE9d9995ac1c226276ad342a509eef05",
+                                                            "type": "Dialogue",
+                                                            "text": "The user responds: legal.",
+                                                            "actor": "Des. User",
+                                                            "isExpanded": null,
+                                                            "team": "None",
+                                                            "tool": "None",
+                                                            "interactions": [
+                                                              {
+                                                                "id": "INSTRUCTION4f4132e1883a0e71b8f9ac2dc36474",
+                                                                "type": "Dialogue",
+                                                                "text": "Ask the user to enter the applicant's following data: - Document type (mandatory) - Identification without verification number (mandatory) - Corporate name (mandatory)",
+                                                                "actor": "Instruction",
+                                                                "isExpanded": null,
+                                                                "team": "Experts",
+                                                                "tool": "None",
+                                                                "interactions": [
+                                                                  {
+                                                                    "id": "USER_RESPONSE91e3950597645033ae7eedc6c37516",
+                                                                    "type": "Dialogue",
+                                                                    "text": "The user responds.",
+                                                                    "actor": "Des. User",
+                                                                    "isExpanded": null,
+                                                                    "team": "None",
+                                                                    "tool": "None",
+                                                                    "interactions": [
+                                                                      {
+                                                                        "id": "INSTRUCTION22b8bef89603b4b34d17a0a33e0108",
+                                                                        "type": "Dialogue",
+                                                                        "text": "Ask the user to enter the applicant's following domicile data:\n- Country (mandatory)\n- Directorate Judicial Notification (Mandatory)\n- Commercial Directorate",
+                                                                        "actor": "Instruction",
+                                                                        "isExpanded": null,
+                                                                        "team": "Experts",
+                                                                        "tool": "None",
+                                                                        "interactions": [
+                                                                          {
+                                                                            "id": "USER_RESPONSEa5b8cc58cc7d327c90c80081fb9fa7",
+                                                                            "type": "Dialogue",
+                                                                            "text": "The user responds.",
+                                                                            "actor": "Des. User",
+                                                                            "isExpanded": true,
+                                                                            "team": "None",
+                                                                            "tool": "None",
+                                                                            "interactions": [
+                                                                              {
+                                                                                "id": "INSTRUCTION1261436e5f535e3ff75472f96adb54",
+                                                                                "type": "Jump to",
+                                                                                "text": "Salta a: fb473d68-2a64-40ff-a97c-d28bd26c725f",
+                                                                                "actor": "Heel",
+                                                                                "isExpanded": false,
+                                                                                "team": "Experts",
+                                                                                "tool": "None",
+                                                                                "interactions": []
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        ]
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "USER_RESPONSE781e34f42d5078f3be95eec126df79",
+                            "type": "Dialogue",
+                            "text": "The user responds: legal.",
+                            "actor": "Des. User",
+                            "isExpanded": true,
+                            "team": "None",
+                            "tool": "None",
+                            "interactions": [
+                              {
+                                "id": "INSTRUCTION8f102150813786fdae72efeb19e87c",
+                                "type": "Dialogue",
+                                "text": "Ask the user to enter the following data from the attorney: - Document type (mandatory) - Identification without verification number (mandatory) - Corporate name (mandatory)",
+                                "actor": "Instruction",
+                                "isExpanded": true,
+                                "team": "Experts",
+                                "tool": "None",
+                                "interactions": [
+                                  {
+                                    "id": "USER_RESPONSE0dc30dc47c3b3729cb082630bc55c0",
+                                    "type": "Dialogue",
+                                    "text": "The user responds.",
+                                    "actor": "Des. User",
+                                    "isExpanded": true,
+                                    "team": "None",
+                                    "tool": "None",
+                                    "interactions": [
+                                      {
+                                        "id": "INSTRUCTION4a84f1c79240843d5dbf0b74a8105a",
+                                        "type": "Dialogue",
+                                        "text": "Ask the user to enter the following domicile data from the attorney:\n- Country (mandatory)\n- Directorate Judicial Notification (Mandatory)",
+                                        "actor": "Instruction",
+                                        "isExpanded": true,
+                                        "team": "None",
+                                        "tool": "None",
+                                        "interactions": [
+                                          {
+                                            "id": "USER_RESPONSE7c596c1b5bcbee70c0c3dea10e493f",
+                                            "type": "Dialogue",
+                                            "text": "The user responds.",
+                                            "actor": "Des. User",
+                                            "isExpanded": true,
+                                            "team": "None",
+                                            "tool": "None",
+                                            "interactions": [
+                                              {
+                                                "id": "INSTRUCTION05ea455ef790f4c544c3fe56d14e1d",
+                                                "type": "Dialogue",
+                                                "text": "Ask the user to enter the following contact information of the attorney: - Cell phone (mandatory) - fixed or cell phone - email (mandatory)",
+                                                "actor": "Instruction",
+                                                "isExpanded": true,
+                                                "team": "Experts",
+                                                "tool": "None",
+                                                "interactions": [
+                                                  {
+                                                    "id": "USER_RESPONSE5e3947a084cc79b456deef399d4f01",
+                                                    "type": "Dialogue",
+                                                    "text": "The user responds.",
+                                                    "actor": "Des. User",
+                                                    "isExpanded": true,
+                                                    "team": "None",
+                                                    "tool": "None",
+                                                    "interactions": [
+                                                      {
+                                                        "id": "INSTRUCTIONb65f91b2e2725c51e94882608a5b77",
+                                                        "type": "Jump to",
+                                                        "text": "Salta a: ad2ef27a-b1d7-40ef-860b-2ff816b3ad3b",
+                                                        "actor": "Heel",
+                                                        "isExpanded": false,
+                                                        "team": "Experts",
+                                                        "tool": "None",
+                                                        "interactions": []
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "USER_RESPONSE06b9f503381a0ce04812a4ea1f2c89",
+                    "type": "Dialogue",
+                    "text": "The user responds: No.",
+                    "actor": "Des. User",
+                    "isExpanded": true,
+                    "team": "None",
+                    "tool": "None",
+                    "interactions": [
+                      {
+                        "id": "INSTRUCTIONd88a3e01e2ba3b16b38058de045265",
+                        "type": "Jump to",
+                        "text": "Salta a: ad2ef27a-b1d7-40ef-860b-2ff816b3ad3b",
+                        "actor": "Heel",
+                        "isExpanded": false,
+                        "team": "Experts",
+                        "tool": "None",
+                        "interactions": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "INSTRUCTIONc03bb115985a1e435d808ebffa4a03",
+            "type": "Dialogue",
+            "text": "The text contains the word verify.",
+            "actor": "Instruction",
+            "isExpanded": null,
+            "team": "None",
+            "tool": "None",
+            "interactions": [
+              {
+                "id": "INSTRUCTIONe596f89f16a2861f022534af90b7c8",
+                "type": "Dialogue",
+                "text": "Please indicate the user to respond: \"Yes\" if the situation described is related to any of the following assumptions, or \"no\" otherwise:\n* The forested case must coincide with the procedure or technologies defined in CUPS of Annex 2 of Resolution 2718 of 2024 [CUPS] (https://www.minsalud.gov.co/sites/rid/lists/bibliotecaDigital/ride/dij/resolucion-2718-de-2024.pdf). \nRemember the user that the case must refer to the refusal of the EPS (or assimilated entity) to cover a service, procedure or technology that is within the health benefit plan (PBS) and whose lack is at risk of user's health.",
+                "actor": "Instruction",
+                "isExpanded": null,
+                "team": "None",
+                "tool": "None",
+                "interactions": [
+                  {
+                    "id": "USER_RESPONSE8dd26fffd196bb574e55a564b7e3db",
+                    "type": "Dialogue",
+                    "text": "The user answers: Yes.",
+                    "actor": "Des. User",
+                    "isExpanded": true,
+                    "team": "None",
+                    "tool": "None",
+                    "interactions": [
+                      {
+                        "id": "INSTRUCTION6908d0bdc537a2a6884eac62761068",
+                        "type": "Jump to",
+                        "text": "Salta a: deb9b5f5-f02c-4800-ba39-ac4b31c4c6cf",
+                        "actor": "Heel",
+                        "isExpanded": false,
+                        "team": "Experts",
+                        "tool": "None",
+                        "interactions": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "USER_RESPONSE05989b4d82f68a8fcf7137c990ad1d",
+                    "type": "Dialogue",
+                    "text": "The user responds: No.",
+                    "actor": "Des. User",
+                    "isExpanded": null,
+                    "team": "None",
+                    "tool": "None",
+                    "interactions": [
+                      {
+                        "id": "INSTRUCTION0f97ef053f963c4953eb2aaec1ab0f",
+                        "type": "Dialogue",
+                        "text": "Expose to the user that the case probably the entity does not accept it by not being in accordance with CUPS of Annex 2 of Resolution 2718 of 2024. Indicale that can obtain more information in: [Supersalud] (https://www.supersalud.gov.co/es-co/paginas/home.aspx) and kindly end the convert.",
+                        "actor": "Instruction",
+                        "isExpanded": null,
+                        "team": "Experts",
+                        "tool": "None",
+                        "interactions": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

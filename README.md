@@ -1,30 +1,17 @@
-🚀 How to Use
-1. Prepare Your Environment
-Make sure you have Python 3.7 or later installed. Then, install the required package:
-pip install deep-translator
+Primero, lo que hice fue cargar un archivo JSON que está en español. 
+Mi objetivo era traducir todo el contenido al inglés y además generar nuevos IDs únicos y organizados, sin perder la estructura original del archivo.
 
-3. Place Your Files
-Put the following file in the same folder as the script:
+Traducción de claves (keys):
+Creé un diccionario donde mapeo las claves en español como "texto", "equipo", etc., 
 
-Prueba_Junior.json – the original JSON file in Spanish.
+Traducción de textos:
+Usé la librería deep_translator con Google Translate para traducir automáticamente todos los textos que estén en cadenas de texto (strings).
 
-3. Run the Script
-Execute the script using:
-python test1.py
-4. Output
-After execution:
+Generación de nuevos IDs:
+Para que los IDs sean únicos y no se repitan, los generé usando un hash del ID original, 
 
-A new file named Test_en_full.json will be generated.
+Transformación del archivo:
+Recorrí todos los nodos del JSON, incluso los que están dentro de listas o estructuras anidadas, y a cada uno le apliqué la traducción y el cambio de ID si era necesario.
 
-It will contain:
-
-All texts translated to English.
-
-All keys renamed (texto → text, etc.).
-
-All IDs replaced with secure, categorized, 50-character strings.
-
-5. Validate Output (Optional)
-Use this site to verify JSON structure:
-
-https://jsonformatter.curiousconcept.com
+Guardado del resultado:
+Finalmente, guardé el archivo nuevo 

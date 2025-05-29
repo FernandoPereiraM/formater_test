@@ -6,7 +6,7 @@ from deep_translator import GoogleTranslator
 input_path = "Prueba_Junior.json"
 output_path = "Test_en_full.json"
 
-# Translation map for keys
+# Translation map
 KEY_TRANSLATION = {
     "id": "id",
     "tipo": "type",
@@ -18,17 +18,17 @@ KEY_TRANSLATION = {
     "interacciones": "interactions"
 }
 
-# Category prefixes based on 'actor'
+# prefixes
 ACTOR_PREFIXES = {
     "Des. Usuario": "USER_RESPONSE",
     "Instrucción": "INSTRUCTION",
     "Salto": "INSTRUCTION"
 }
 
-# Google Translator instance
+# Google Translator 
 translator = GoogleTranslator(source="auto", target="en")
 
-# ID mapping to ensure consistency
+# ID mapping 
 id_map = {}
 
 def detect_text_category(text, actor):
